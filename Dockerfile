@@ -1,4 +1,4 @@
-FROM h3poteto/elixir-rust:1.9.1-rust1.38-slim-stretch
+FROM h3poteto/elixir-rust:1.8.2-rust1.38-slim-stretch
 
 USER root
 
