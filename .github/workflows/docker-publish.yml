@@ -14,7 +14,7 @@ on:
   pull_request:
 
 env:
-  IMAGE_NAME: ielixir-rust-node
+  IMAGE_NAME: elixir-rust-node
 
 jobs:
   # Run tests.
