@@ -1,4 +1,4 @@
-FROM ghcr.io/h3poteto/elixir-rust:1.10.4-rust1.42-slim-buster
+FROM ghcr.io/h3poteto/elixir-rust:1.11.3-rust1.46-slim-buster
 
 USER root
 
