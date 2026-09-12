@@ -1,7 +1,7 @@
-FROM ghcr.io/h3poteto/elixir:1.18.3-slim
+FROM ghcr.io/h3poteto/elixir:1.20.4-slim
 
 USER root
-ENV RUST_VERSION 1.87.0
+ENV RUST_VERSION 1.98.1
 
 WORKDIR /tmp/
 
@@ -15,7 +15,7 @@ RUN set -ex && \
 RUN set -ex && \
     apt-get update && \
     apt-get install -y gnupg2 && \
-    curl -sL https://deb.nodesource.com/setup_22.x | bash - && \
+    curl -sL https://deb.nodesource.com/setup_24.x | bash - && \
     apt-get install -y nodejs && \
     rm -rf /var/lib/apt/lists/*
 
